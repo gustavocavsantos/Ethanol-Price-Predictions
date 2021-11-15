@@ -1,0 +1,59 @@
+# Tuning hyper-parameters for neg_mean_absolute_error: Horizon: 63 days, Model: SVM Linear
+
+Best parameters set found on development set:
+
+{'C': 1000, 'epsilon': 0.2, 'gamma': 0.001, 'kernel': 'linear'}
+
+Grid scores on development set:
+
+(-60.380759026421, 24.82768040791582, {'C': 1, 'epsilon': 0.1, 'gamma': 0.001, 'kernel': 'linear'})
+(-60.380759026421, 24.82768040791582, {'C': 1, 'epsilon': 0.1, 'gamma': 0.0001, 'kernel': 'linear'})
+(-60.410548998597825, 24.87196892930908, {'C': 1, 'epsilon': 0.2, 'gamma': 0.001, 'kernel': 'linear'})
+(-60.410548998597825, 24.87196892930908, {'C': 1, 'epsilon': 0.2, 'gamma': 0.0001, 'kernel': 'linear'})
+(-60.465111669276645, 25.003871300037353, {'C': 1, 'epsilon': 0.5, 'gamma': 0.001, 'kernel': 'linear'})
+(-60.465111669276645, 25.003871300037353, {'C': 1, 'epsilon': 0.5, 'gamma': 0.0001, 'kernel': 'linear'})
+(-59.50332266989341, 22.856199684584723, {'C': 100, 'epsilon': 0.1, 'gamma': 0.001, 'kernel': 'linear'})
+(-59.50332266989341, 22.856199684584723, {'C': 100, 'epsilon': 0.1, 'gamma': 0.0001, 'kernel': 'linear'})
+(-59.51060489935285, 22.878074834002945, {'C': 100, 'epsilon': 0.2, 'gamma': 0.001, 'kernel': 'linear'})
+(-59.51060489935285, 22.878074834002945, {'C': 100, 'epsilon': 0.2, 'gamma': 0.0001, 'kernel': 'linear'})
+(-59.540515902148954, 22.96373565836295, {'C': 100, 'epsilon': 0.5, 'gamma': 0.001, 'kernel': 'linear'})
+(-59.540515902148954, 22.96373565836295, {'C': 100, 'epsilon': 0.5, 'gamma': 0.0001, 'kernel': 'linear'})
+(-59.51902302060337, 22.90774100400641, {'C': 1000, 'epsilon': 0.1, 'gamma': 0.001, 'kernel': 'linear'})
+(-59.51902302060337, 22.90774100400641, {'C': 1000, 'epsilon': 0.1, 'gamma': 0.0001, 'kernel': 'linear'})
+(-59.501162776483014, 22.908764192089812, {'C': 1000, 'epsilon': 0.2, 'gamma': 0.001, 'kernel': 'linear'})
+(-59.501162776483014, 22.908764192089812, {'C': 1000, 'epsilon': 0.2, 'gamma': 0.0001, 'kernel': 'linear'})
+(-59.52068829277355, 22.921553339735752, {'C': 1000, 'epsilon': 0.5, 'gamma': 0.001, 'kernel': 'linear'})
+(-59.52068829277355, 22.921553339735752, {'C': 1000, 'epsilon': 0.5, 'gamma': 0.0001, 'kernel': 'linear'})
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+
+
+Hit ratio for best parameters: 
+
+
+             precision    recall  f1-score   support
+
+           0       0.65      0.61      0.63       173
+           1       0.77      0.80      0.79       291
+
+    accuracy                           0.73       464
+   macro avg       0.71      0.71      0.71       464
+weighted avg       0.73      0.73      0.73       464
+
+
+Hit ratio for C=1, epsilon= 0.2:
+
+
+         precision    recall  f1-score   support
+
+           0       0.68      0.60      0.63       173
+           1       0.78      0.83      0.80       291
+
+    accuracy                           0.74       464
+   macro avg       0.73      0.71      0.72       464
+weighted avg       0.74      0.74      0.74       464
+
